@@ -1,0 +1,17 @@
+.wrapper {
+    width: 800px;
+    margin: auto;
+
+}
+.padded {
+    padding: 10px;
+    border: 1px solid #ff0000;
+    margin: 10px;
+}
+
+
+#header {width: 758px; margin: 10px; padding: 10px;float: left; clear:both}
+#content {width: 224.66px; margin: 10px; padding: 10px;float: left;}
+#content2 {width:224.66px; margin: 10px; padding: 10px;float: left;}
+#content3 {width:224.66px; margin: 10px; padding: 10px;float: left;}
+#footer {width: 758px; margin: 10px; padding: 10px;float: left; clear:both}

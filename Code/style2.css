@@ -1,0 +1,36 @@
+body {
+    background: url(images/chocolate-islands.jpg);
+    margin: 8px;
+    padding: 8px;
+    
+    font-family: 'Open Sans', sans-serif;
+}
+h2 {
+    font-weight: bold;
+    color:rgb(205,133,63);
+   
+    font-family: 'Roboto', sans-serif;
+}
+
+.nu {
+    color:black;
+}
+.nu2 {
+    color: rgb(245,222,179);
+}
+.nu3 {
+    color:black;
+}
+.nu4 {
+    color:rgb(210,180,140);
+}
+.wrapper {
+    width: 540px;
+    background: #FFF;
+    margin: auto;
+    padding: 20px;
+}
+
+#page {
+    
+}
