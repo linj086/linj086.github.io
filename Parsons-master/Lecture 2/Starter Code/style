@@ -1,0 +1,9 @@
+bodu {
+
+}
+
+div {
+    border: 1px solid #ff0000;
+    MARGIN: 50PX;
+    padding: 50px;
+    }

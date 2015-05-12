@@ -1,0 +1,326 @@
+body {
+	margin:0px;
+	padding:0px;
+	background:#CCCCCC;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width:1000px;
+}
+
+html {
+	overflow-x:hidden;
+}
+
+a {
+	text-decoration:none;
+}
+
+#header {
+	width:100%;
+	background:#264149;
+	height:100px;
+	overflow:hidden;
+}
+
+#logo {
+	width:20%;
+	line-height:100px;
+	height:100px;
+	float:left;
+	
+}
+
+#logo img {
+	width:100%;
+	vertical-align:middle;
+}
+
+#menu_sidebar {
+	float:left;
+	width:30%;
+	margin-left:10%;
+	height:70px;
+	padding:30px 0px 0px 0px;
+}
+
+#menu {
+	float:left;
+	width:60%;
+	height:100px;
+}
+
+#menu ul {
+	margin:0px;
+	padding:0px;
+}
+
+#menu li {
+	list-style:none;
+	float:left;
+	width:20%;
+	text-align:center;
+	height:100px;
+	line-height:100px;
+}
+
+#menu li a {
+	text-decoration:none;
+	color:white;
+}
+
+#menu li.current a {
+	background:#000000;
+	padding:3px;
+	border-radius:5px;
+}
+
+#menu li a:hover {
+	background:#000000;
+	padding:3px;
+	border-radius:5px;
+}
+
+#user {
+	float:left;
+	width:20%;
+	height:100px;
+}
+
+#info a{
+	display:inline-block;
+	width:50%;
+	text-align:center;
+	padding:10px 0px;
+	color: #CCCCCC;;
+}
+
+#info a:hover {
+	color:red;
+}
+
+#search {
+	text-align:center;
+}
+
+#search input {
+	width:96%;
+	height:20px;
+	border-radius:5px;
+	background:url(../images/search.png) right no-repeat white;
+}
+
+#home_art {
+	padding:20px 0px;
+	margin-top:20px;
+	overflow:hidden;
+}
+
+#home_art .item {
+	width:32%;
+	margin-left:1%;
+	float:left;
+	text-align:center;
+}
+
+#home_art .subitem {
+	background:white;
+	margin-bottom:20px;
+	height:480px;
+	overflow:hidden;
+}
+
+#home_art .subitem .art{
+	text-align:left;
+	padding:0px 10px 30px 10px;
+	color:#777;
+}
+
+#home_art .subitem .thumb img {
+	width:100%;
+	border:0px;
+	height:180px;
+}
+
+#ad {
+	text-align:center;
+}
+
+#ad img {
+	width:98%;
+	height:120px;
+	padding:20px 0px;
+	border-top:1px solid #999;
+	border-bottom:1px solid #999;
+}
+
+#record {
+	overflow:hidden;
+	margin-top:30px;
+}
+
+#record .left {
+	float:left;
+	width:20%;
+	margin-left:1%;
+}
+
+
+#record .left input[type=text] {
+	width:80%;
+	border-radius:5px;
+	height:25px;
+}
+
+#record .left input[type=submit] {
+	width:50%;
+	margin-top:20px;
+	height:35px;
+	color:white;
+	background: #3399FF;
+	border:0px;
+	cursor:pointer;
+}
+
+#record .left .subitme {
+	background:white;
+	margin-bottom:20px;
+	text-align:center;
+	padding:20px 10px;
+}
+
+#record .left .subitme h3 {
+	margin:10px 0px;
+	color:#666666;
+}
+
+#record .left .subinfo {
+	overflow:hidden;
+	padding-bottom:20px;
+	padding-top:20px;
+	border-bottom:1px solid #999;
+	font-size:70%;
+}
+
+#record .left .subinfo img {
+	width:40%;
+	float:left;
+	height:60px;
+}
+
+#record .left .subinfo span {
+	width:56%;
+	margin-left:3%;
+	float:left;
+	text-align:left;
+	display:block;
+}
+
+
+#record .right {
+	float:left;
+	width:75%;
+	margin-left:1%;
+}
+
+#record .right .item{
+	padding-bottom:20px;
+	padding-left:30px;
+	padding-right:30px;
+	border-bottom:1px solid black;
+	margin-bottom:10px;
+}
+
+#record .right .item.last {
+	border-bottom:0px;
+}
+
+#record .right .item .first{
+	overflow:hidden;
+}
+
+#record .right .item .first .left2{
+	float:left;
+	width:10%;
+	background:#888;
+	text-align:center;
+	padding:10px 0px;
+	max-height:160px;
+}
+
+#record .right .item .first .left2 .span {
+	font-size:100%;
+	width:100%;
+	display:block;
+}
+
+#record .right .item .first .right2{
+	float:left;
+	width:76%;
+	margin-left:3%;
+	padding:10px;
+}
+
+#record .right .item .first .right2 .title {
+	font-size:200%;
+	color:#7d8d8d;
+}
+
+#record .right .item .first .right2 .des {
+	font-size:100%;
+	color: #88944c;
+	margin-top:20px;
+}
+
+#record .right .item .second{
+	color:#7d8d8d;
+}
+
+#bottom {
+	text-align:center;
+	padding-bottom:30px;
+	border-top:1px solid #888;
+}
+
+#bottom .img{
+	text-align:center;
+	margin-top:40px;
+}
+
+#bottom img{
+	width:40%;
+}
+
+#bottom a {
+	padding:0px 10px;
+}
+
+#banner {
+	border-bottom:1px solid #888;
+}
+
+#bottom h2 {
+	color:#666666;
+}
+
+#slideshow {
+	height:300px;
+}
+
+#login {
+	background:url('../images/thumb.png') 0px 10px no-repeat;
+}
+
+#subscribe {
+	margin:50px 0px;
+}
+
+#subscribe img {
+	width:100%;
+}
+
+#account img {
+	width: 100%;
+}
+

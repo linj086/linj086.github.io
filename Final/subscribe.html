@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>subscribe</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/flexslider.css" media="screen" />
+<link href="css/owl.theme.css" rel="stylesheet" type="text/css">
+<link href="css/sidebar-left.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+.content {
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+.container {
+	margin-bottom: 30px;
+}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
+<body>
+
+<div id="wrapper">
+<header id="header">
+	<div id="logo"><img src="images/logo.png" /></div>
+	
+	<div id="menu_sidebar" style="display:none">
+		<a href="#" class="deploy-left-sidebar"></a>
+	</div>
+	
+	<div id="menu">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="sections.html">Sections</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li class="current"><a href="subscribe.html">Subscribe</a></li>
+			<li><a href="account.html">Account</a></li>
+		</ul>
+	</div>
+	<div id="user">
+		<div id="info"><a href="login.php" id="login">Login</a><a href="register.php">Regiter</a></div>
+		<div id="search"><input type="text" value="" placeholder="search" /></div>
+	</div>
+</header>
+
+<section id="subscribe">
+	<img src="images/subscribe.png">
+</section>
+
+
+<footer id="bottom">
+	<div class="img">
+		<img src="images/bottom.png" alt="">
+	</div>
+
+	<div class="nav">
+		<a>About us</a>
+		<a>FAQ</a>
+		<a>Customer care</a>
+		<a>Contact us</a>
+	</div>
+</footer>
+
+
+
+<div class="sidebar-left">
+	<div class="sidebar-scroll-left">
+
+		<div class="sidebar-header-left">
+			<img src="images/logo-sidebar.png" class="sidebar-left-logo replace-2x" width="125" alt="img">
+			<a href="#" class="close-sidebar-left"></a>
+		</div>
+
+		<a href="index.html" class="nav-item">Home<em class="icon-active"></em></a>
+		<a href="sections.html" class="nav-item">Sections<em class="icon-active"></em></a>
+		<a href="gallery.html" class="nav-item">Gallery<em class="icon-active"></em></a>
+		<a href="subscribe.html" class="nav-item">Subscribe<em class="icon-active"></em></a>
+		<a href="account.html" class="nav-item">Account<em class="icon-active"></em></a>
+	</div>
+</div>
+</div>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/framework.plugins.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/sidebar-left.js"></script>
+<script src="js/resize.js"></script>
+<script type="text/javascript">
+
+jQuery(function(){
+
+	jQuery('.prev-staff,.next-staff').css({
+		'margin-top':(parseInt(jQuery('.staff-slider').height())/2-20)+'px'
+	});
+	
+	jQuery('.flexslider').flexslider();
+})
+
+
+</script>
+</body>
+</html>

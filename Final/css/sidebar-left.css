@@ -1,0 +1,206 @@
+
+
+.sidebar-left{
+
+	box-shadow: 3px 0px 3px 0px rgba(0, 0, 0, 0.3);
+
+	background-image:url(../ke01_img/sidebar-bg.png);
+
+	background-repeat:repeat;
+
+	width:270px;
+
+	position:fixed;
+
+	z-index:99999;
+
+	top:0px;
+
+	left:-270px;
+
+	bottom:0px;
+
+	overflow:hidden;
+
+	position:fixed;
+
+}
+
+
+
+.sidebar-left .sidebar-scroll-left{
+
+	padding-right:20px;
+
+	left:0px;
+
+	width:310px;
+
+	overflow: scroll!important;
+
+	overflow-x:hidden!important;
+
+	-webkit-overflow-scroll:touch!important;	
+
+}
+
+
+
+
+
+
+.sidebar-left .sidebar-header-left{
+
+	height:51px;
+
+	background-color:#1d1f22;
+
+	border-bottom:solid 1px #141719;
+
+}
+
+
+
+
+
+.sidebar-left .sidebar-left-logo{	
+
+	position:absolute;
+
+	top:18px;
+
+	left:20px;
+
+}
+
+
+
+.sidebar-left .close-sidebar-left{
+
+	background-color:#212326;
+
+	background-image:url(../ke01_img/accessdenied.png);
+
+	background-size:17px 17px;
+
+	background-repeat:no-repeat;
+
+	background-position:16px 18px;
+
+	height:50px;
+
+	width:50px;
+
+	margin-left:220px;
+
+	display:block;
+
+}
+
+
+
+
+
+
+
+
+
+.sidebar-left .nav-item:hover{
+
+	background-color:#212326;
+
+}
+
+
+
+.sidebar-left .nav-item{
+
+	-webkit-tap-highlight-color: rgba(0,0,0,0); 
+
+	font-family:'Microsoft YaHei', sans-serif;
+
+	background-size:20px 20px;	
+
+	background-color:#1d1f22;
+
+	text-shadow:0px 2px 0px rgba(0,0,0,1);
+
+	font-size:12px;
+
+	font-weight:700;
+
+	color:#d2d2d2;
+
+	height:50px;
+
+	line-height:49px;
+
+	background-repeat:no-repeat;
+
+	padding-left:60px;
+
+	background-position:20px center;
+
+	border-bottom:solid 1px #141719;
+
+	border-top:solid 1px #25272a;
+
+}
+
+
+
+.sidebar-left .icon-active{
+
+	position:absolute;
+
+	background-image:url(../ke01_img/location@2x.png);
+
+	background-size:10px 15px;
+
+	background-repeat:no-repeat;
+
+	display:block;
+
+	width:10px;
+
+	height:15px;
+
+	top:19px;
+
+	left:240px;
+
+}
+
+
+.sidebar-left a, .sidebar-left img{
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+
+
+.deploy-left-sidebar{
+	display:block;
+
+	background-image:url(../ke01_img/nav.png);
+
+	background-repeat:no-repeat;
+
+	background-color:#f9fafc;
+
+	height:50px;
+
+	width:50px;
+
+	background-position:center center;
+	vertical-align:middle;
+
+}
+
+.deploy-left-sidebar:hover {
+	transform:scale(1.1);
+}
+
+
+
+
