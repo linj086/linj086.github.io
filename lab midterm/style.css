@@ -1,0 +1,87 @@
+.body {
+    background-color: #FEF1E1;
+}
+
+
+.title {
+    background-color: #FEE0C6;
+    height: 32px;
+    color: #8B7D6B;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    padding-left: 20px;
+    
+}
+
+.canvas{
+    max-width: 1100px;
+
+}
+
+.iphone{
+    background-image: url(ip%20new%201.jpg);
+    float: left;
+    width: 250px;
+    height: 507px;
+    margin-top: 40px;
+    margin-top: 40px;
+    margin-left: 20%;
+    
+    
+}
+
+.main{
+    color:#8B7355;
+    float: left;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 10%;
+    width: 40%;
+    margin-top: 80px;
+    
+
+}
+
+.words{
+    color:#8B8878;
+    float: left;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 350;
+    font-size: 18px;
+    margin-left: 10%;
+    width: 44%;
+    margin-top: 30px;
+    
+  
+}
+
+.app{
+    color:#8B7D6B;
+    float: left;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 38px;
+    width: 500px;
+    
+}
+
+
+.appstore{
+    float: left;
+    background-image: url(logo%201.jpg);
+    width: 220px;
+    height: 81px;
+    margin-top: 35px;
+    margin-left: -8px;
+}
+.andstore{
+    float: left;
+    background-image: url(logo%202.jpg);
+    width: 240px;
+    height: 79px;
+    margin-top: 38px;
+    margin-left: -15px;
+}
